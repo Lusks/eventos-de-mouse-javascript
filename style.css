@@ -1,0 +1,30 @@
+/* O "*" é o seletor universal: afeta a todos os elementos.  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Cor do fundo que foi aplicada na tag "<body>" */
+body {
+  background:rgb(25, 15, 51);
+}
+
+/* Div que envelopa o botão (para uso do flexbox) */
+#btn-div {
+  display: flex;
+  align-items: center; 
+  height: 100vh;
+}
+
+/* Botão */
+#btn {
+  background: linear-gradient(45deg, rgb(65, 28, 167), rgb(160, 20, 97));
+  color: rgb(245, 245, 245);
+  padding: 1%;
+  border: none;
+  border-radius: 6px;
+  margin: 0 auto;
+  font-size: 18px;
+  cursor: pointer;
+}
+
